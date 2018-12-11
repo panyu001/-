@@ -1,0 +1,5 @@
+需求描述：备份所有线上服务器squid、httpd、mysql、nginx的配置文件
+
+环境：在公司内网采用expect+shell脚本模式，进行批量备份。expect脚本
+通过ssh登录服务器，从本地copy一份shell脚本到服务器上，然后执行脚本
+将配置文件遍历出来传到指定服务器进行备份。
